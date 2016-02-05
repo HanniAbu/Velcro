@@ -74,14 +74,16 @@ $(window).on('resize', function(){
 
 // Page View Controller
 $('.page-link').click(function() {
-		// Testing
-		log('Page Change Initiated...' + capFirst($(this).attr('id')) + ' Link Was Clicked','start');
-	changePageView(this);
-	setPageLinkActive();
-	setTabTitle();
-	savePageName();
-		// Testing
-		log('---Page Change Complete','end');
+	if (!$(this).hasClass('disabled')) {
+					// Testing
+			log('Page Change Initiated...' + capFirst($(this).attr('id')) + ' Link Was Clicked','start');
+		changePageView(this);
+		setPageLinkActive();
+		setTabTitle();
+		savePageName();
+			// Testing
+			log('---Page Change Complete','end');
+	}
 });
 
 // Updates the code previews on a setting change
