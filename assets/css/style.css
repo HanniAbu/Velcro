@@ -169,6 +169,9 @@ noscript h5 {
 	text-decoration: none;
 	background-color: #F7F7F7;
 }
+.sidebar-nav li .disabled{
+	color: #ccc;
+}
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {
 	text-decoration: none;
