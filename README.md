@@ -1,6 +1,6 @@
 #__Velcro__ ![alt text](https://raw.githubusercontent.com/HanniAbu/Velcro/gh-pages/assets/img/favicon.png "Velcro Logo")
 #### _A Twitter Bootstap 3.0 Component Generator_
-###### To use, vist: https://hanniabu.com/Velcro/
+###### To use, visit: https://hanniabu.com/Velcro/
 
 
 This is a designer tool I created to help speed up development. This tool allows you to easily generate barebones HTML Bootstrap 3 components by selecting the settings you need. As you make changes, the preview and corresponding HTML is updated automatically. 
